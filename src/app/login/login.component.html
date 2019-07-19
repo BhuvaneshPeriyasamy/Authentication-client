@@ -1,0 +1,22 @@
+
+
+<div class="container">  
+<div class="row">
+  <div class="col-sm-4">
+  <input class="inputcontrol" autocomplete="off" placeholder="User Name" class="form-control" type="text" [(ngModel)]="data.username" name="username"/>
+</div>
+</div>
+<br>
+<div class="row">
+  <div class="col-sm-4">
+  <input type="password" placeholder="Password" class="form-control" [(ngModel)]="data.password" name="username"/>
+</div>
+</div>
+<div>
+  <button class="btn btn-outline-primary" [disabled]="disable" type="submit" (click)="login()">Submit</button>
+</div>
+</div>
+
+    
+    
+
